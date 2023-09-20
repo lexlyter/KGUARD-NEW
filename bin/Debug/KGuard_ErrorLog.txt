@@ -1,0 +1,87 @@
+>>> 26.9.2020 13:33:42 KAYNAK: [public bool Start(string BindAddr, int nPort, Engine_ServerType ServType)]
+{
+System.Net.Sockets.SocketException (0x80004005): İstenen adres içeriğinde geçerli değil
+   konum: System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   konum: System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   konum: KGuard.AsyncServer.Start(String LocalIP, Int32 nPort, Engine_ServerType ServType) C:\Users\Kadir\Desktop\kguard\KGuard-New\KGuard\AsyncServer.cs içinde: satır 32
+}
+
+>>> 26.9.2020 13:33:42 KAYNAK: [public bool Start(string BindAddr, int nPort, Engine_ServerType ServType)]
+{
+System.Net.Sockets.SocketException (0x80004005): İstenen adres içeriğinde geçerli değil
+   konum: System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   konum: System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   konum: KGuard.AsyncServer.Start(String LocalIP, Int32 nPort, Engine_ServerType ServType) C:\Users\Kadir\Desktop\kguard\KGuard-New\KGuard\AsyncServer.cs içinde: satır 32
+}
+
+>>> 26.9.2020 13:41:46 KAYNAK: [(SideAgent) void OnReceiveFromClient(IAsyncResult iar)]
+{
+System.Net.Sockets.SocketException (0x80004005): Varolan bir bağlantı uzaktaki bir ana bilgisayar tarafından zorla kapatıldı
+   konum: System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   konum: KGuard.SideAgent.OnReceiveFromClient(IAsyncResult iar) C:\Users\Kadir\Desktop\kguard\KGuard-New\KGuard\SideAgent.cs içinde: satır 188
+}
+
+>>> 26.9.2020 14:07:38 KAYNAK: [public bool Start(string BindAddr, int nPort, Engine_ServerType ServType)]
+{
+System.Net.Sockets.SocketException (0x80004005): İstenen adres içeriğinde geçerli değil
+   konum: System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   konum: System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   konum: KGuard.AsyncServer.Start(String LocalIP, Int32 nPort, Engine_ServerType ServType) C:\Users\Kadir\Desktop\kguard\KGuard-New\KGuard\AsyncServer.cs içinde: satır 32
+}
+
+>>> 26.9.2020 14:07:38 KAYNAK: [public bool Start(string BindAddr, int nPort, Engine_ServerType ServType)]
+{
+System.Net.Sockets.SocketException (0x80004005): İstenen adres içeriğinde geçerli değil
+   konum: System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   konum: System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   konum: KGuard.AsyncServer.Start(String LocalIP, Int32 nPort, Engine_ServerType ServType) C:\Users\Kadir\Desktop\kguard\KGuard-New\KGuard\AsyncServer.cs içinde: satır 32
+}
+
+>>> 26.9.2020 14:40:40 KAYNAK: [public bool Start(string BindAddr, int nPort, Engine_ServerType ServType)]
+{
+System.Net.Sockets.SocketException (0x80004005): İstenen adres içeriğinde geçerli değil
+   konum: System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   konum: System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   konum: KGuard.AsyncServer.Start(String LocalIP, Int32 nPort, Engine_ServerType ServType) C:\Users\Kadir\Desktop\kguard\KGuard-New\KGuard\AsyncServer.cs içinde: satır 32
+}
+
+>>> 26.9.2020 14:40:40 KAYNAK: [public bool Start(string BindAddr, int nPort, Engine_ServerType ServType)]
+{
+System.Net.Sockets.SocketException (0x80004005): İstenen adres içeriğinde geçerli değil
+   konum: System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   konum: System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   konum: KGuard.AsyncServer.Start(String LocalIP, Int32 nPort, Engine_ServerType ServType) C:\Users\Kadir\Desktop\kguard\KGuard-New\KGuard\AsyncServer.cs içinde: satır 32
+}
+
+>>> 26.9.2020 14:42:22 KAYNAK: [public bool Start(string BindAddr, int nPort, Engine_ServerType ServType)]
+{
+System.Net.Sockets.SocketException (0x80004005): Normal olarak her yuva adresi (iletişim kuralı/ağ adresi/bağlantı noktası) için yalnızca bir kullanıma izin veriliyor
+   konum: System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   konum: System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   konum: KGuard.AsyncServer.Start(String LocalIP, Int32 nPort, Engine_ServerType ServType) C:\Users\Kadir\Desktop\kguard\KGuard-New\KGuard\AsyncServer.cs içinde: satır 32
+}
+
+>>> 26.9.2020 14:42:22 KAYNAK: [public bool Start(string BindAddr, int nPort, Engine_ServerType ServType)]
+{
+System.Net.Sockets.SocketException (0x80004005): Normal olarak her yuva adresi (iletişim kuralı/ağ adresi/bağlantı noktası) için yalnızca bir kullanıma izin veriliyor
+   konum: System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   konum: System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   konum: KGuard.AsyncServer.Start(String LocalIP, Int32 nPort, Engine_ServerType ServType) C:\Users\Kadir\Desktop\kguard\KGuard-New\KGuard\AsyncServer.cs içinde: satır 32
+}
+
+>>> 26.9.2020 14:42:55 KAYNAK: [public bool Start(string BindAddr, int nPort, Engine_ServerType ServType)]
+{
+System.Net.Sockets.SocketException (0x80004005): Normal olarak her yuva adresi (iletişim kuralı/ağ adresi/bağlantı noktası) için yalnızca bir kullanıma izin veriliyor
+   konum: System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   konum: System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   konum: KGuard.AsyncServer.Start(String LocalIP, Int32 nPort, Engine_ServerType ServType) C:\Users\Kadir\Desktop\kguard\KGuard-New\KGuard\AsyncServer.cs içinde: satır 32
+}
+
+>>> 26.9.2020 14:42:55 KAYNAK: [public bool Start(string BindAddr, int nPort, Engine_ServerType ServType)]
+{
+System.Net.Sockets.SocketException (0x80004005): Normal olarak her yuva adresi (iletişim kuralı/ağ adresi/bağlantı noktası) için yalnızca bir kullanıma izin veriliyor
+   konum: System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   konum: System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   konum: KGuard.AsyncServer.Start(String LocalIP, Int32 nPort, Engine_ServerType ServType) C:\Users\Kadir\Desktop\kguard\KGuard-New\KGuard\AsyncServer.cs içinde: satır 32
+}
+

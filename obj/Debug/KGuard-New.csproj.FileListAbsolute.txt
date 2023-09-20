@@ -1,0 +1,15 @@
+C:\Users\Kadir\Desktop\kguard\KGuard-New\obj\Debug\KGuard-New.csprojAssemblyReference.cache
+C:\Users\Kadir\Desktop\kguard\KGuard-New\obj\Debug\KGuard.Closing.resources
+C:\Users\Kadir\Desktop\kguard\KGuard-New\obj\Debug\KGuard.Init.vSroForumCom.resources
+C:\Users\Kadir\Desktop\kguard\KGuard-New\obj\Debug\KGuard.Initial.resources
+C:\Users\Kadir\Desktop\kguard\KGuard-New\obj\Debug\KGuard.Kurulum.resources
+C:\Users\Kadir\Desktop\kguard\KGuard-New\obj\Debug\KGuard.MainForm.resources
+C:\Users\Kadir\Desktop\kguard\KGuard-New\obj\Debug\KGuard.OpenLicense.resources
+C:\Users\Kadir\Desktop\kguard\KGuard-New\obj\Debug\KGuard.Properties.Resources.resources
+C:\Users\Kadir\Desktop\kguard\KGuard-New\obj\Debug\KGuard.SetSQL.resources
+C:\Users\Kadir\Desktop\kguard\KGuard-New\obj\Debug\KGuard-New.csproj.GenerateResource.cache
+C:\Users\Kadir\Desktop\kguard\KGuard-New\obj\Debug\KGuard-New.csproj.CoreCompileInputs.cache
+C:\Users\Kadir\Desktop\kguard\KGuard-New\bin\Debug\KGuard.exe
+C:\Users\Kadir\Desktop\kguard\KGuard-New\bin\Debug\KGuard.pdb
+C:\Users\Kadir\Desktop\kguard\KGuard-New\obj\Debug\KGuard.exe
+C:\Users\Kadir\Desktop\kguard\KGuard-New\obj\Debug\KGuard.pdb

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Kadir\Desktop\kguard\KGuard.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E31D7A81-599B-4A2B-A81E-E3A65EF8C755}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>KGuard</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <ApplicationVersion>5.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SilkroadSecurityApi\Blowfish.cs" />
+    <Compile Include="SilkroadSecurityApi\Packet.cs" />
+    <Compile Include="SilkroadSecurityApi\PacketReader.cs" />
+    <Compile Include="SilkroadSecurityApi\PacketWriter.cs" />
+    <Compile Include="SilkroadSecurityApi\Security.cs" />
+    <Compile Include="SilkroadSecurityApi\TransferBuffer.cs" />
+    <Compile Include="SilkroadSecurityApi\Utility.cs" />
+    <Compile Include="NetFwTypeLib\INetFwAuthorizedApplication.cs" />
+    <Compile Include="NetFwTypeLib\INetFwAuthorizedApplications.cs" />
+    <Compile Include="NetFwTypeLib\INetFwIcmpSettings.cs" />
+    <Compile Include="NetFwTypeLib\INetFwMgr.cs" />
+    <Compile Include="NetFwTypeLib\INetFwOpenPort.cs" />
+    <Compile Include="NetFwTypeLib\INetFwOpenPorts.cs" />
+    <Compile Include="NetFwTypeLib\INetFwPolicy.cs" />
+    <Compile Include="NetFwTypeLib\INetFwPolicy2.cs" />
+    <Compile Include="NetFwTypeLib\INetFwProduct.cs" />
+    <Compile Include="NetFwTypeLib\INetFwProducts.cs" />
+    <Compile Include="NetFwTypeLib\INetFwProfile.cs" />
+    <Compile Include="NetFwTypeLib\INetFwRemoteAdminSettings.cs" />
+    <Compile Include="NetFwTypeLib\INetFwRule.cs" />
+    <Compile Include="NetFwTypeLib\INetFwRule2.cs" />
+    <Compile Include="NetFwTypeLib\INetFwRule3.cs" />
+    <Compile Include="NetFwTypeLib\INetFwRules.cs" />
+    <Compile Include="NetFwTypeLib\INetFwService.cs" />
+    <Compile Include="NetFwTypeLib\INetFwServiceRestriction.cs" />
+    <Compile Include="NetFwTypeLib\INetFwServices.cs" />
+    <Compile Include="NetFwTypeLib\NET_FW_ACTION_.cs" />
+    <Compile Include="NetFwTypeLib\NET_FW_IP_PROTOCOL_.cs" />
+    <Compile Include="NetFwTypeLib\NET_FW_IP_VERSION_.cs" />
+    <Compile Include="NetFwTypeLib\NET_FW_MODIFY_STATE_.cs" />
+    <Compile Include="NetFwTypeLib\NET_FW_PROFILE_TYPE2_.cs" />
+    <Compile Include="NetFwTypeLib\NET_FW_PROFILE_TYPE_.cs" />
+    <Compile Include="NetFwTypeLib\NET_FW_RULE_DIRECTION_.cs" />
+    <Compile Include="NetFwTypeLib\NET_FW_SCOPE_.cs" />
+    <Compile Include="NetFwTypeLib\NET_FW_SERVICE_TYPE_.cs" />
+    <Compile Include="KGuard\Checks.cs" />
+    <Compile Include="KGuard\ClientsAgent.cs" />
+    <Compile Include="KGuard\ClientsGateway.cs" />
+    <Compile Include="KGuard\Globals.cs" />
+    <Compile Include="KGuard\Log.cs" />
+    <Compile Include="KGuard\AsyncServer.cs" />
+    <Compile Include="KGuard\SideAgent.cs" />
+    <Compile Include="KGuard\SideGateway.cs" />
+    <Compile Include="KGuard\Closing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KGuard\Initial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KGuard\Kurulum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KGuard\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KGuard\OpenLicense.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KGuard\Program.cs" />
+    <Compile Include="KGuard\SetSQL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KGuard\Properties\Resources.cs" />
+    <Compile Include="KGuard\Properties\Settings.cs" />
+    <Compile Include="KGuard\Init\vSroForumCom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="KGuard\Closing.resx" />
+    <EmbeddedResource Include="KGuard\Init\vSroForumCom.resx" />
+    <EmbeddedResource Include="KGuard\Initial.resx" />
+    <EmbeddedResource Include="KGuard\Kurulum.resx" />
+    <EmbeddedResource Include="KGuard\MainForm.resx" />
+    <EmbeddedResource Include="KGuard\OpenLicense.resx" />
+    <EmbeddedResource Include="KGuard\Properties\Resources.resx" />
+    <EmbeddedResource Include="KGuard\SetSQL.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
